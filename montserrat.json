@@ -1,0 +1,14 @@
+{
+
+    "name": "Montserrat",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*":[
+                    {"fontFamily":"Montserrat"}
+                ]
+            }
+        }
+    }
+
+}

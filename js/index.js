@@ -1,12 +1,8 @@
-const root = document.querySelector('#root')
+// Array
 
-// cha inperpolação
-function newElement(tag, content) {
-    const title = `<${tag}>${content}</${tag}>`
-    root.insertAdjacentHTML('beforeend', title)
+const nome = ["Raphael", "Rychard"]
+const nomes = ['SeuDerick', 'Lucas', 'Ansiente', 'Ryazero', 'Carol', 'Raquel']
 
-}
+console.log(nomes[1])
 
-newElement('h1', 'Aita')
-newElement('h4', 'A, vá');
 
