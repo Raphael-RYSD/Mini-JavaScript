@@ -1,5 +1,36 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+:root {
+    --font-d: 'Rubik Iso', cursive;
+}
+
 * {
     margin: 0;
     padding: 0;
+    border: none;
+
+}
+
+body {
+    background-color: #222f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#root {
+    box-sizing: border-box;
+    background-color: #5f27cd;
+    box-shadow: 0px 0px 6px #00000025;
+    border-radius: 8px;
+
+    width: 40vw;
+    height: 70vh;
+    font-family: var(--font-d);
+    text-align: center; 
     
+    padding-top: 45px;
 }

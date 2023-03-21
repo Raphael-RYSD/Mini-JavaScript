@@ -13,11 +13,10 @@ const textTitle = 'Dificuldade'
 
 */
 const title = Title`
-    text-align: center; 
-    color: #f6f6f6; 
-    padding: 20px;
+    color: #c8d6e5;  
     font-size: 3em;
-    background: royalblue;
+    letter-spacing: 2px;
+    opacity: 0.8;
     ${textTitle}
 `
 
