@@ -4,6 +4,7 @@ const root = document.querySelector('#root')
 //DECLARA A CONTANTE PARA PEGA O CONTEÚDO
 const textTitle = 'Dificuldade'
 
+const path = '/img/Ativo3.png'
 
 /* 
     Tagged Tamplade String
@@ -20,6 +21,10 @@ const title = Title`
     ${textTitle}
 `
 
+const emojeoKawai = Character`
+    tranform: scale(0.4);
+    ${path}
+`
 
-root.insertAdjacentHTML("beforeend", title)
-
+root.insertAdjacentHTML('beforeend', title)
+root.insertAdjacentHTML('beforeend', path)
