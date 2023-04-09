@@ -18,15 +18,15 @@ const css = `<style>
         box-sizing: border-box;
         background-color: #5f27cd;
         box-shadow: 0px 0px 6px #00000025;
+
         border-radius: 8px;
-    
-        max-width: 80vw;
-        min-width: 70vw;
+        padding-top: 45px;
+
+        width: clamp(30px, 90vw, 768px);
         height: 70vh;
+
         font-family: var(--font-d);
         text-align: center;
-    
-        padding-top: 45px;
     }
 </style>`
 
